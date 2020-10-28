@@ -6,4 +6,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Update="StopCommand.cs">
+      <CustomToolNamespace>CustomCommands</CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
 </Project>
